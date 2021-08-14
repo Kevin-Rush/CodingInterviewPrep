@@ -1,3 +1,7 @@
+/*
+Coding challenge: print out a list of even numbers
+*/
+
 import java.util.ArrayList;
 
 public class evenNumDisp {

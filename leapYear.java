@@ -1,3 +1,7 @@
+/*
+Coding challenge: determine if a year (given by the user) is a leap year
+*/
+
 import java.util.Scanner;
 
 public class leapYear {

@@ -1,3 +1,7 @@
+/*
+Coding challenge: calculate the factoral of a number given by the user 
+*/
+
 import java.util.Scanner;
 
 public class findFactoral {
