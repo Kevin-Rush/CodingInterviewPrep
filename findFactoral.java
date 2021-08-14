@@ -5,7 +5,6 @@ public class findFactoral {
         int fact = num;
         for (int i = num-1; i > 0; i --){
             fact = fact*i;
-            System.out.println(fact);
         }
         return fact;
     }
@@ -25,7 +24,8 @@ public class findFactoral {
 
         int userNumber = Integer.parseInt(myScanner.nextLine()); //Read the user input and cast it to an integer
 
-        int fact = calcFactoral(userNumber);
+        //int fact = calcFactoral(userNumber);
+        int fact = recursionFactorial(userNumber);
         System.out.println("The factorial is: "+fact);
     }
 }
