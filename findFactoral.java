@@ -9,6 +9,15 @@ public class findFactoral {
         }
         return fact;
     }
+    
+    public static int recursionFactorial(int num){//calculate the factorial of a number using recursion 
+        if (num == 0){
+            return 1;
+        }
+        else{
+            return (num*recursionFactorial(num-1));
+        }
+    }
 
     public static void main (String []args){
         Scanner myScanner = new Scanner(System.in); //Creating a scanner object
