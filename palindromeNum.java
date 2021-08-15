@@ -16,7 +16,16 @@ public class palindromeNum {
         return check;
     }
 
+    static boolean isPalindromeSTRB(Long num){
+        if(num == null)
+            return false;
+        String strNum = Long.toString(num);
+        StringBuilder strBuild = new StringBuilder(strNum);
+        strBuild.reverse();
+        return strBuild.toString().equals(strNum);
+    }
+
     public static void main(String []args){
-        System.out.println(isPalind(123456789987654321L));
+        System.out.println(isPalindromeSTRB(123456789987654321L));
     }
 }
