@@ -1,3 +1,4 @@
+package Java;
 /*
 Coding challenge: calculate the factoral of a number given by the user 
 */
