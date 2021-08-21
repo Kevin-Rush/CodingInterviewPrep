@@ -1,5 +1,7 @@
 package Java;
-
+/*
+Coding challenge: remove a character in a string
+*/
 public class removeElementInString {
     static String remAllElements(String str, String element){
         if (str == null)
